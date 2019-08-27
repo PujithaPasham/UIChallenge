@@ -1,0 +1,81 @@
+
+.container{
+  background-color: lightgrey;
+  margin-top: 2%;
+}
+
+.pricing-heading{
+  font-size: 40px;
+  font-weight: 200;
+}
+.pricing-subtitle{
+  font-weight: lighter;
+  color: grey;
+  font-style: italic;
+  padding-top: 0;
+}
+.btn {
+  background-color: #6B8E23;
+  padding: 12px 15px;
+  color: white;
+  font-size: 10px;
+}
+#pricing{
+  text-align: center;
+}
+.pricing-row{
+  padding: 2% 2%;
+}
+.pricing-column {
+  padding: 1px;
+}
+
+.card-hover:hover{
+  background-color: #696969;
+
+}
+.card-title{
+  padding: 5% 2%;
+}
+.card-link{
+  font-size: 13px;
+  color: darkgreen;
+  text-decoration: underline;
+}
+.card-data{
+  list-style-type: none;
+  display:inline;
+
+}
+.cost{
+  font-weight: bold;
+  font-family: fantasy;
+}
+.per-month{
+  font-weight: lighter;
+  font-size: 15px;
+}
+/* .div1{
+  background-color: #EDE4E1;
+
+  height: 1000px;
+  border: 1px;
+  border-style: groove;
+  margin: auto;
+  text-align: center;
+
+
+}
+h2{
+  font-size: 30px;
+  font-weight: normal;
+}
+h3{
+  color: lightgrey;
+
+} */
+.card-title{
+  font-size: 13px;
+  color: grey;
+
+}
