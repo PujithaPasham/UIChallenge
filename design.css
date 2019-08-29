@@ -1,7 +1,41 @@
-
 .container{
   background-color: lightgrey;
   margin-top: 2%;
+}
+.pricing-row {
+  width: 100%;
+  padding-bottom: 25px
+}
+.pricing-coloumn {
+margin-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+display: grid;
+}
+@media only screen and (min-width: 1025px) {
+.pricing-coloumn {
+  width: 20%;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+.pricing-coloumn {
+  width: 33%;
+}
+}
+@media only screen and (max-width: 767px) {
+.pricing-coloumn {
+  width: 50%;
+}
+}
+@media only screen and (max-width: 480px) {
+.pricing-coloumn {
+  width: 100%;
+}
+}
+.pricing-row .row {
+  margin-right:0;
+  margin-left: 0;
 }
 
 .pricing-heading{
@@ -28,6 +62,7 @@
 }
 .pricing-column {
   padding: 1px;
+
 }
 
 .card-hover:hover{
@@ -44,8 +79,10 @@
 }
 .card-data{
   list-style-type: none;
-  display:inline;
-
+  display: inline;
+}
+ul.card-data {
+    padding: 0;
 }
 .cost{
   font-weight: bold;
